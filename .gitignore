@@ -6,3 +6,6 @@ config/*
 !.gitkeep
 
 .env*
+
+data/*
+!.gitkeep
