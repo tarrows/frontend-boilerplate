@@ -2,9 +2,11 @@
   "name": "frontend-boilerplate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
     "start": "next dev",
+    "start:production": "next start",
+    "build": "next build",
     "lint": "eslint --ext .ts,.tsx src",
     "ts": "ts-node --project tsconfig.scripts.json",
     "clean:data": "rimraf ./data && mkdir ./data",
