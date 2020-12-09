@@ -4,3 +4,4 @@
 - Material-UI
 - Chakra UI
 - React-Dropzone
+- TailwindCSS
